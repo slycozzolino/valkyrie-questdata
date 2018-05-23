@@ -320,7 +320,7 @@ EventNoHero.text,The collector chants the words of the ritual as he waves the bl
 EventNoHero.button1,Continue
 EventGirlDied.button1,Continue
 SpawnCollector1.text,The collector starts reciting a strange chant as he focuses on the ritual. Spawn the Priest of Dagon and remove the Red Man Person token as indicated. This is the collector.
-EventGirlDied.text,The knife, lodged deep in her chest, her screams go silent and he body goes limp. Cynthia gasps for her lasts breath but her wounds prove to be too much.
+EventGirlDied.text,With both hands on the handle, the collector brings the blade down impailing the poor girl. With the knife lodged deep in her chest, her screams go silent and he body goes limp. Cynthia gasps for her lasts breath but her wounds prove to be too much.
 SpawnCollector1.button1,Continue
 SpawnCultist1.button1,Continue
 SpawnCultist2.text,The other man follows to find the intruders. Spawn a Cultist and remove the Purple Man Person token as indicated.
@@ -346,7 +346,7 @@ SpawnSpawn6.button1,Continue
 SpawnMaidCultist.text,You push the maid away long enough to get back on your feet. As you catch your breath you notice the maid is coming for you again, this time she has a knife. Remove the White Woman Person token and Spawn a Cultist in your space.
 EventDistractWithLights.button1,Continue
 EventAttacksHero.button1,Continue
-EventAttacksHero.text,The collector slashes the blade at you with great fury to back you away as you try to help protect the girl ({agility}; 2). If you pass, you managed to dodge each incoming swipe of the blade. If you fail, the collector manages to land a vicious strike that puts a deep gash in your hand suffer 2 Damage and become Dazed.
+EventAttacksHero.text,The collector slashes the blade at you with great fury to back you away as you try to help protect the girl ({agility}; 2). If you pass, you managed to dodge each incoming swipe of the blade. If you fail, the collector manages to land a vicious strike that puts a deep gash in your hand suffer 2 Damage and become Dazed, then move one space away from the collector.
 EventGirlOut.button2,{action} Hide girl
 EventHideGirl.text,Cynthia, terrified of what has happen, hides away fearing things could get worse. Remove the Orange Woman Person token.
 EventHideGirl.button1,Continue
@@ -377,8 +377,8 @@ EventEatCollector.button1,Continue
 EventPriestDied.text,With a final killing blow to the collector, he falls to the ground, dropping the dagger. The dagger slides across the floor, stopping as it hits your foot. A strange feeling comes over you to take the dagger. Take the Ritual Dagger Common Item. This item can be traded but it cannot be dropped.
 EventPriestDied.button1,Continue
 EventPriestActivationMain.button1,Continue
-EventPriestLogicLightsOut.button1,Attacks girl
-EventPriestLogicLightsOut.text,The collector moves up to 2 spaces to be in the same space as the girl and attacks her.
+EventPriestLogicLightsOut.button1,Perform Ritual
+EventPriestLogicLightsOut.text,The collector moves up to 2 spaces to be in the same space as the girl to continue the ritual.
 EventPriestLogicLightsOut.button2,Cannot be in the same space
 EventCollectorMoves2.text,The collector moves 2 spaces towards the girl and then attacks the closest investigator within range.
 EventCollectorMoves2.button1,Collector attacks
@@ -410,7 +410,7 @@ EventGhostFades.button1,Continue
 EventBladeAttacks.text,"A strange urge overtakes you. The whispers in your ear tell you ""The girl cannot be trusted. She must die."" The investigator holding the Ritual Dagger Common Item moves up to 2 spaces to be in the same space as the girl and attacks."
 EventBladeAttacks.button1,Attack the girl
 EventBladeAttacks.button2,Cannot move to the same space
-EventBladeAttacksGirl.text,You rush at Cynthia, your eyes glazed over, you mind helpless to stop your body's actions. You thrust the dagger at her trying to kill her.
+EventBladeAttacksGirl.text,You rush at Cynthia, your eyes glazed over, you mind helpless to stop your body's actions. You thrust the dagger at her trying to kill her. The blade cuts deep into her flesh, but your strike is not fatal. As she fights for her life you notice her wounds are starting to take their toll. She won't last much longer.
 EventBladeAttacksGirl.button1,Continue
 EventBladeMoveToPartner.text,Rage rushes over you as you feel your fellow investigators are plotting against you. The investigator holding the Ritual Dagger Common Item moves up to 2 spaces to be in the same space as another investigator and attacks.
 EventBladeMoveToPartner.button1,Attack another investigator
@@ -546,9 +546,9 @@ EventReviewAnswer2.button2,<i>Reveal answer</i>
 EventReviewAnswer1.button2,<i>Reveal answer</i>
 TokenGirlDead.text,The poor girl is dead.
 TokenGirlDead.button1,Continue
-EventPriestAttacksRescuedGirl.button1,Attacks girl
+EventPriestAttacksRescuedGirl.button1,Perform Ritual
 EventPriestAttacksRescuedGirl.button2,Cannot be in the same space
-EventPriestAttacksRescuedGirl.text,The collector moves up to 2 spaces to be in the same space as the girl and attacks her.
+EventPriestAttacksRescuedGirl.text,The collector moves up to 2 spaces to be in the same space as the girl to continue the ritual.
 EventMenRun.text,The other men scream in horror as the collector is ripped to shreds and devoured. They quickly head for the door hoping to save their lives. Remove the Yellow Man Person and Purple Man Person tokens.
 EventMenRun.button1,Continue
 EventCombo1Hint.button1,Continue
